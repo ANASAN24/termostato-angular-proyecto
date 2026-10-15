@@ -10,6 +10,9 @@ import { DisplayThermostateComponent } from './components/display-thermostate/di
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+onCambioTemperaturaOutput(arg0: any) {
+throw new Error('Method not implemented.');
+}
   title = 'proj-termo-ana';
 
   temperature: number = 20;

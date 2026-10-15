@@ -1,1 +1,6 @@
-<p>display-thermostate works!</p>
+<h1>{{ temperature() + ' ºC' }}</h1>
+@if (alarm){
+  <hi> Temperatura por encima del umbral: {{ umbral }}</hi>
+
+}
+
